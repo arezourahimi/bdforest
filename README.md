@@ -1,7 +1,7 @@
 This repository contains R implementation of the algorithms proposed in "Efficient Multitask Multiple Kernel Learning with Application to Cancer Research" (IEEE Trans. Cybern., under review).
 
 * run_forest.R : shows how to solve the MTMKLC problem based on the TCGA cohorts and Hallmark pathways using BDForest
-* run_mtmklc_comparative.R : runs various variants of the proposed algorithms (BDF,OL,VL) to compare their algorithmic performances
+* run_comparative.R : runs various variants of the proposed algorithms (BDF,OL,VL) to compare their algorithmic performances
 
 MTMKLC methods
 ------------
