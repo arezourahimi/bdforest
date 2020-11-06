@@ -11,7 +11,7 @@ pdist <- function(X1, X2) {
 }
 
 read_pathways <- function(name) {
-  symbols_lines <- read.table(sprintf("msigdb/%s.gmt", name), header = FALSE, sep = ",", stringsAsFactor = FALSE)
+  symbols_lines <- read.table(sprintf("%s.gmt", name), header = FALSE, sep = ",", stringsAsFactor = FALSE)
   pathways <- vector("list", nrow(symbols_lines))
   for (line in 1:nrow(symbols_lines)) {
     symbols_entries <- strsplit(symbols_lines[line, 1], "\t")
