@@ -62,7 +62,7 @@ get_cross_validation_tuples <- function()
   return(tuples)
 }
 
-get_core_point(TN, K, phi)
+get_core_point <- function(TN, K, phi)
 {
   core_point <- matrix(0, TN, TN)
   for(s in 1:(TN-1))
